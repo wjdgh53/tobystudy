@@ -16,6 +16,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compile 'mysql:mysql-connector-java:8.0.13'
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '3.0.7.RELEASE'
+
+
 }
 
 test {
