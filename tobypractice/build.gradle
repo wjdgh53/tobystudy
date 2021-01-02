@@ -14,10 +14,14 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'junit:junit:4.12'
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    compile 'mysql:mysql-connector-java:8.0.13'
     compile group: 'org.springframework', name: 'spring-jdbc', version: '3.0.7.RELEASE'
+    compile 'mysql:mysql-connector-java:8.0.13'
+
 
 
 }

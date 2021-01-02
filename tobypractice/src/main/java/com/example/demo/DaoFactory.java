@@ -16,10 +16,6 @@ public class DaoFactory {
         return userDao;
     }
     @Bean
-    public ConnectionMaker connectionMaker(){
-        return new DConnectionMaker();
-    }
-    @Bean
     public DataSource dataSource(){
         SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
         dataSource.setDriverClass(com.mysql.jdbc.Driver.class);
